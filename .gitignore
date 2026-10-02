@@ -8,3 +8,13 @@
 # Build outputs
 **/dist/
 **/build/
+# Local data and generated files
+**/data/
+**/*.sqlite
+**/*.sqlite-*
+**/.env.*
+!**/.env.example
+**/coverage/
+**/*.tsbuildinfo
+.DS_Store
+**/.vite/
